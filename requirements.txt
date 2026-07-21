@@ -1,0 +1,8 @@
+requests
+pandas
+numpy
+scikit-learn
+spacy
+streamlit
+python-dotenv
+sentence-transformers
