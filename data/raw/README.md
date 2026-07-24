@@ -1,0 +1,1 @@
+This folder stores raw, unprocessed data pulled directly from job APIs (Adzuna, RemoteOK). Files here are never edited manually — only cleaned versions go into `data/processed/`.

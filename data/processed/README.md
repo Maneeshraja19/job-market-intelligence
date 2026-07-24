@@ -1,0 +1,1 @@
+This folder stores cleaned and processed versions of the raw job posting data, ready for analysis and modeling.
