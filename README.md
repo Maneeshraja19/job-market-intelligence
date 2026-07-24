@@ -6,7 +6,16 @@ An AI-powered tool that analyzes real data analyst and data scientist job postin
 While job hunting, I found it hard to know exactly which skills to prioritize and what salary to expect. So I built this tool to pull real job postings, analyze them with NLP and machine learning, and turn them into clear, actionable insights — for myself and anyone else navigating the job market.
 
 ## Status
+## Status
 🚧 Work in progress — actively being built.
+
+**Progress so far:**
+- ✅ Project structure set up
+- ✅ Adzuna API connected and returning live job posting data
+- Data cleaning
+- NLP skill extraction
+- Salary prediction model
+- Dashboard
 
 ## Planned Features
 - Real-time job posting collection (Adzuna + RemoteOK APIs)
