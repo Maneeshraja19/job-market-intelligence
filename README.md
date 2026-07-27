@@ -27,3 +27,10 @@ While job hunting, I found it hard to know exactly which skills to prioritize an
 
 ## Tech Stack
 Python, pandas, scikit-learn, spaCy, sentence-transformers, Streamlit
+
+## Data Sources
+- **Adzuna API** — real-time job postings (title, company, location, salary, description)
+- **RemoteOK API** *(coming soon)* — remote-specific job postings
+
+## Sample Data
+The first batch of collected job postings (300 real listings for Data Analyst and Data Scientist roles) is available in `data/raw/adzuna_jobs_raw.csv`.
