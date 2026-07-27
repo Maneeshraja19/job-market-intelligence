@@ -34,3 +34,9 @@ Python, pandas, scikit-learn, spaCy, sentence-transformers, Streamlit
 
 ## Sample Data
 The first batch of collected job postings (300 real listings for Data Analyst and Data Scientist roles) is available in `data/raw/adzuna_jobs_raw.csv`.
+
+## How to Run This Project (so far)
+1. Clone this repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Create a `.env` file with your own Adzuna API credentials:
+4. Data collection notebook: see `notebooks/01_data_collection.ipynb` *(coming soon — will be added from Colab)*
