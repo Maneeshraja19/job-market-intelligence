@@ -40,3 +40,9 @@ The first batch of collected job postings (300 real listings for Data Analyst an
 2. Install dependencies: `pip install -r requirements.txt`
 3. Create a `.env` file with your own Adzuna API credentials:
 4. Data collection notebook: see `notebooks/01_data_collection.ipynb` *(coming soon — will be added from Colab)*
+
+## Methodology & Known Limitations
+- Skills are extracted via keyword matching against a curated list of 43 common data-role skills, searched across job title, description snippet, and category.
+- Adzuna's API provides only partial job description text (not full postings), which may undercount skills that appear later in the full listing.
+- Some companies post near-identical job descriptions across multiple locations; these are kept as separate rows (since location/salary differ) but can inflate specific skill counts for those employers.
+- Skill counts should be read as directional signal (what's mentioned across available text), not a precise measure of true market-wide demand.
