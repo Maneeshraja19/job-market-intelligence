@@ -46,3 +46,13 @@ The first batch of collected job postings (300 real listings for Data Analyst an
 - Adzuna's API provides only partial job description text (not full postings), which may undercount skills that appear later in the full listing.
 - Some companies post near-identical job descriptions across multiple locations; these are kept as separate rows (since location/salary differ) but can inflate specific skill counts for those employers.
 - Skill counts should be read as directional signal (what's mentioned across available text), not a precise measure of true market-wide demand.
+
+## Key Insights (from 740 analyzed job postings)
+
+- **Machine Learning** shows the strongest salary association: postings mentioning it average **$18,475 higher** salary_min than those that don't (based on 96 postings).
+- **Python** also shows a positive association (**+$15,977**), though based on a smaller sample (16 postings).
+- **SQL**, despite being widely required (42 postings), shows a slight **negative** association (-$10,154) — likely because it's a near-universal baseline skill across both junior and senior roles rather than a differentiator for higher pay.
+- **Business Analyst** postings emphasize Agile and Communication over technical tools, while **Data Analyst** postings lean heavily on SQL, Python, and Power BI — reflecting a more technical vs. process-oriented role split.
+- Smaller sample sizes (Tableau, Power BI, AWS — each under 15 postings) mean their salary associations should be treated as directional, not conclusive.
+
+*See `data/processed/salary_by_skill.csv` and `data/processed/skills_by_role.csv` for full data.*
