@@ -1,0 +1,47 @@
+role,skill,count
+data analyst,sql,23
+data analyst,python,8
+data analyst,power bi,8
+data analyst,etl,6
+data analyst,tableau,6
+data analyst,r,3
+data analyst,communication,3
+data analyst,machine learning,2
+data analyst,pandas,2
+data analyst,data visualization,2
+data scientist,machine learning,75
+data scientist,communication,1
+data scientist,nlp,1
+data scientist,python,1
+data scientist,sql,1
+data scientist,r,1
+data scientist,tableau,1
+junior data analyst,machine learning,16
+junior data analyst,sql,13
+junior data analyst,java,7
+junior data analyst,statistics,6
+junior data analyst,r,6
+junior data analyst,excel,6
+junior data analyst,power bi,5
+junior data analyst,python,5
+junior data analyst,agile,4
+junior data analyst,tableau,3
+business analyst,agile,18
+business analyst,communication,11
+business analyst,azure,3
+business analyst,stakeholder management,3
+business analyst,sql,3
+business analyst,excel,2
+business analyst,tableau,2
+business analyst,power bi,2
+business analyst,aws,1
+business analyst,etl,1
+data engineer,machine learning,3
+data engineer,sql,2
+data engineer,python,2
+data engineer,statistics,1
+data engineer,etl,1
+data engineer,java,1
+data engineer,scala,1
+data engineer,azure,1
+data engineer,aws,1
