@@ -6,3 +6,4 @@ spacy
 streamlit
 python-dotenv
 sentence-transformers
+joblib
