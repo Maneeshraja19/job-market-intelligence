@@ -41,3 +41,23 @@ with col4:
 st.markdown("---")
 st.subheader("Sample of Job Postings")
 st.dataframe(df[['title', 'company', 'location', 'salary_min', 'search_keyword']].head(20))
+st.markdown("---")
+st.subheader("📈 Skill Demand by Role")
+
+# Load skill-by-role data
+skills_by_role_df = pd.read_csv('data/processed/skills_by_role.csv')
+
+# Dropdown to select a role
+selected_role = st.selectbox("Select a role to see top skills:", skills_by_role_df['role'].unique())
+
+# Filter and display as a bar chart
+filtered_skills = skills_by_role_df[skills_by_role_df['role'] == selected_role].sort_values('count', ascending=True)
+st.bar_chart(filtered_skills.set_index('skill')['count'])
+
+st.markdown("---")
+st.subheader("💰 Salary Impact by Skill")
+
+# Load salary-by-skill data
+salary_by_skill_df = pd.read_csv('data/processed/salary_by_skill.csv')
+st.bar_chart(salary_by_skill_df.set_index('skill')['difference'])
+st.caption("Positive values indicate postings mentioning this skill had higher average salary_min than those that didn't.")
