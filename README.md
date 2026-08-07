@@ -1,6 +1,7 @@
 # Job Market Intelligence Dashboard
 
 An AI-powered tool that analyzes real data analyst and data scientist job postings to uncover in-demand skills, salary trends, and personalized career insights.
+**Quick finding:** Postings mentioning Machine Learning show an $18,475 average salary premium over those that don't (based on analysis of 740 real job postings). [See full insights ↓](#key-insights-from-740-analyzed-job-postings)
 
 ## Why this project?
 While job hunting, I found it hard to know exactly which skills to prioritize and what salary to expect. So I built this tool to pull real job postings, analyze them with NLP and machine learning, and turn them into clear, actionable insights — for myself and anyone else navigating the job market.
