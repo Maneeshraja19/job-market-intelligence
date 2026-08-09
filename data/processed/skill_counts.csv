@@ -21,14 +21,14 @@ scikit-learn,3
 snowflake,3
 azure,3
 deep learning,2
-stakeholder management,2
 numpy,2
 scrum,2
+hadoop,1
 google cloud,1
 qlik,1
-hadoop,1
 redshift,1
-scala,1
 looker,1
-airflow,1
+scala,1
 kafka,1
+airflow,1
+stakeholder management,1
