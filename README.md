@@ -4,6 +4,9 @@ An AI-powered tool that analyzes real data analyst and data scientist job postin
 
 🔗 **[Live Dashboard](https://job-market-intelligence-data-maneeshraja.streamlit.app/)**
 
+## Data Freshness
+This dashboard's data is automatically refreshed daily via a scheduled GitHub Actions workflow, 
+which pulls fresh postings from Adzuna and RemoteOK, cleans them, and updates the dataset that powers the live dashboard.
 **Quick finding:** Postings mentioning Machine Learning show an $18,475 average salary premium over those that don't (based on analysis of 740 real job postings). [See full insights ↓](#key-insights-from-740-analyzed-job-postings)
 
 ## Why this project?
