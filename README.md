@@ -12,9 +12,6 @@ which pulls fresh postings from Adzuna and RemoteOK, cleans them, and updates th
 ## Why this project?
 While job hunting, I found it hard to know exactly which skills to prioritize and what salary to expect. So I built this tool to pull real job postings, analyze them with NLP and machine learning, and turn them into clear, actionable insights — for myself and anyone else navigating the job market.
 
-## Status
-🚧 Work in progress — actively being built.
-
 **Progress so far:**
 - ✅ Project structure set up
 - ✅ Adzuna API connected and returning live job posting data
@@ -23,13 +20,24 @@ While job hunting, I found it hard to know exactly which skills to prioritize an
 - Salary prediction model
 - Dashboard
 
-## Planned Features
-- Real-time job posting collection (Adzuna + RemoteOK APIs)
+## Current Features
+
+- Automated daily job posting collection using Adzuna API
 - NLP-based skill extraction from job descriptions
 - Salary prediction model
 - Semantic skill clustering
-- Interactive dashboard (Streamlit)
-- AI-generated market insights
+- Interactive Streamlit dashboard
+- AI-generated job market insights
+- Automated data pipeline using GitHub Actions
+
+## Future Improvements
+
+- Expand job data sources beyond Adzuna
+- Improve NLP-based skill extraction with advanced language models
+- Enhance salary prediction accuracy with additional features
+- Add historical job-market trend analysis
+- Add advanced job recommendation and skill-gap analysis
+- Improve real-time monitoring and alerting capabilities
 
 ## Tech Stack
 Python, pandas, scikit-learn, spaCy, sentence-transformers, Streamlit
