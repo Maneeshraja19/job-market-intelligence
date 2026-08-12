@@ -1,38 +1,34 @@
 skill,count
-machine learning,52
-sql,36
-python,32
-agile,20
-communication,18
-power bi,13
-excel,13
-java,13
+machine learning,81
+sql,43
+python,29
+agile,21
+communication,20
+power bi,15
+r,12
 tableau,12
-r,10
+excel,12
+java,11
+statistics,9
 etl,9
-statistics,8
-spark,4
-nlp,4
-data visualization,4
-aws,4
-data warehousing,3
-google cloud,3
-stakeholder management,3
+nlp,6
+data visualization,5
+stakeholder management,4
+aws,3
 snowflake,3
-hadoop,2
-postgresql,2
-mysql,2
+a/b testing,3
+deep learning,3
+azure,3
 scrum,2
-kafka,2
-azure,2
+scikit-learn,2
+numpy,2
+pandas,2
+google cloud,1
+data warehousing,1
 bigquery,1
 redshift,1
 looker,1
-airflow,1
-scikit-learn,1
-pandas,1
-numpy,1
-a/b testing,1
-deep learning,1
 scala,1
-gcp,1
+airflow,1
+spark,1
+kafka,1
