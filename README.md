@@ -37,7 +37,7 @@ While job hunting, I found it hard to know exactly which skills to prioritize an
 - Enhance salary prediction accuracy with additional features
 - Add historical job-market trend analysis
 - Add advanced job recommendation and skill-gap analysis
-- Improve real-time monitoring and alerting capabilities
+- Improve real-time monitoring and alerting capabilities.
 
 ## Tech Stack
 Python, pandas, scikit-learn, spaCy, sentence-transformers, Streamlit
