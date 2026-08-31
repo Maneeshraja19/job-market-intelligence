@@ -1,26 +1,26 @@
 skill,count
-machine learning,220
+machine learning,173
 data visualization,68
-sql,46
+sql,45
 snowflake,40
-python,26
-agile,20
-etl,20
+python,24
+agile,22
+etl,19
 power bi,18
-communication,15
-excel,13
-aws,12
+communication,17
+aws,17
+excel,12
 tableau,9
 azure,7
 scrum,6
 r,6
 spark,5
 airflow,4
-statistics,4
 stakeholder management,3
 java,3
-kafka,2
+statistics,3
 hadoop,2
+kafka,2
 google cloud,2
 a/b testing,1
 mysql,1
