@@ -1,14 +1,20 @@
 skill,count
-machine learning,78
-data visualization,44
-azure,4
-sql,4
-agile,3
-excel,2
-communication,2
-power bi,2
-python,1
-r,1
-etl,1
-stakeholder management,1
-snowflake,1
+machine learning,104
+data visualization,77
+python,16
+sql,14
+communication,9
+excel,9
+azure,6
+etl,6
+agile,4
+snowflake,4
+power bi,4
+aws,4
+tableau,3
+nlp,3
+r,2
+statistics,2
+redshift,1
+deep learning,1
+spark,1
