@@ -1,21 +1,24 @@
 skill,count
-machine learning,101
-data visualization,37
-agile,25
-communication,8
+machine learning,140
+data visualization,68
+google cloud,37
+looker,35
+bigquery,34
+agile,9
+excel,8
 sql,7
-power bi,5
-excel,5
-r,4
+communication,7
+r,7
+python,6
+java,5
 statistics,4
-nlp,4
 snowflake,4
-python,4
-java,3
+power bi,3
+gcp,3
+etl,3
+nlp,3
 tableau,2
-etl,2
-scrum,2
 aws,2
+data warehousing,2
+scala,2
 deep learning,1
-looker,1
-data warehousing,1
