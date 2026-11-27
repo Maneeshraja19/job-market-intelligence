@@ -1,14 +1,14 @@
 skill,count
-machine learning,105
+machine learning,84
 sql,69
-python,45
+python,44
 etl,34
-snowflake,20
+snowflake,22
+power bi,20
 agile,19
-power bi,19
 azure,18
-aws,18
-communication,18
+communication,17
+aws,16
 tableau,13
 r,10
 excel,10
@@ -25,9 +25,9 @@ airflow,4
 deep learning,3
 hadoop,3
 redshift,3
+qlik,2
 data warehousing,2
 kafka,2
-qlik,1
 looker,1
 pytorch,1
 postgresql,1
